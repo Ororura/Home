@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { calculateTimeLeft } from "../lib";
 
-const TARGET_DATE = new Date("2025-06-27T00:00:00");
+const TARGET_DATE = new Date("2026-06-27T00:00:00");
 
 const useCountDown = () => {
   const [timeLeft, setTimeLeft] = useState(() =>
